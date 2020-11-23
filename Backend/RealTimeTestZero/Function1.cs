@@ -58,7 +58,7 @@ namespace RealTimeTestZero
             )
         {
             // This is not executed when browser client disconnectes from the hub.
-            logger.LogWarning($"Client connected {ctx.ConnectionId}");
+            logger.LogWarning($"Client disconnected {ctx.ConnectionId}");
         }
     }
 }
