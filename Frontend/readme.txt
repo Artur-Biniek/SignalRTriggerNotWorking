@@ -1,0 +1,1 @@
+Run at localhost:5500 or adjust the CORS at backend.
